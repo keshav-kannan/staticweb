@@ -1,24 +1,7 @@
-from textnode import TextNode, TextType
+from textnode import TextNode, TextType, text_node_to_html_node
 from htmlnode import HTMLNode, LeafNode, ParentNode
+from parse import *
 
-def text_node_to_html_node(text_node):
-    import sys
-    print(sys.version_info)
-    x = text_node.text_type.value
-    match x:
-        case "text":
-            return LeafNode(None,text_node.text, None)
-        case "bold":
-            return LeafNode("b",text_node.text,None)
-        case "italic":
-            return LeafNode("i",text_node.text,None)
-        case "code":
-            return LeafNode("code",text_node.text)
-        case "link":
-            return LeafNode("a",text_node.value,{href:"",})
-        case "image":
-            return LeafNode("img","",{src:"www.com",alt:"some text"})
-        raise Exception("not a valid TextType")
 
 def main():
     #text1 = TextNode("This is some anchor text", TextType.LINK, "https://www.boot.dev")
@@ -42,9 +25,14 @@ def main():
     ], )
 
     print(node.to_html())
-    '''
+
     node = TextNode("This is a text node", TextType.TEXT)
     html_node = text_node_to_html_node(node)
-    print(html_node.tag, html_node.value)
+    print(html_node)
+    '''
+
+    node = TextNode("This is text with a `code block` word", TextType.TEXT)
+    new_nodes = split_nodes_delimiter([node], "`", TextType.CODE)
+    print(new_nodes)
 
 main()
