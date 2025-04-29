@@ -1,6 +1,7 @@
 from textnode import TextNode, TextType, text_node_to_html_node
 from htmlnode import HTMLNode, LeafNode, ParentNode
 from parse import *
+from blocktype import *
 
 
 def main():
@@ -61,4 +62,46 @@ def main():
     textnode = text_to_textnodes(text)
     print(textnode)
     '''
+    """
+    text = '''# This is a heading
+
+This is a paragraph of text. It has some **bold** and _italic_ words inside of it.
+
+        - This is the first list item in a list block
+- This is a list item
+- This is another list item
+
+```this is code
+```
+
+>this is a quote block
+>and this
+
+1. list item 1
+2. list item 2
+3. list item 3
+'''
+
+    blocks = markdown_to_blocks(text)
+    for block in blocks:
+        print(block,block_to_block_type(block))
+"""
+    md = """
+#This is a heading
+
+This is **bolded** paragraph
+text in a p
+tag here
+
+## This is a second heading
+
+This is another paragraph with _italic_ text and `code` here
+
+"""
+
+    node = markdown_to_html_node(md)
+    html = node.to_html()
+    print(html)
+
+
 main()
