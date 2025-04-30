@@ -208,3 +208,63 @@ sebnjdfkjiebwsfkjwe
 2025-04-30 11:55:17,260 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/images/tolkien.png was copied to directory /home/keshav/workspace/github.com/staticweb/docs/images/tolkien.png
 2025-04-30 11:55:17,261 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/images/glorfindel.png was copied to directory /home/keshav/workspace/github.com/staticweb/docs/images/glorfindel.png
 2025-04-30 11:55:17,263 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/images/rivendell.png was copied to directory /home/keshav/workspace/github.com/staticweb/docs/images/rivendell.png
+2025-04-30 11:58:24,957 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/docs/index.css file was deleted
+2025-04-30 11:58:24,957 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/docs/contact directory was deleted
+2025-04-30 11:58:24,958 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/docs/blog directory was deleted
+2025-04-30 11:58:24,959 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/docs/images directory was deleted
+2025-04-30 11:58:24,959 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/docs/index.html file was deleted
+2025-04-30 11:58:24,959 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/index.css was copied to directory /home/keshav/workspace/github.com/staticweb/docs/index.css
+2025-04-30 11:58:24,961 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/images/tom.png was copied to directory /home/keshav/workspace/github.com/staticweb/docs/images/tom.png
+2025-04-30 11:58:24,962 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/images/tolkien.png was copied to directory /home/keshav/workspace/github.com/staticweb/docs/images/tolkien.png
+2025-04-30 11:58:24,963 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/images/glorfindel.png was copied to directory /home/keshav/workspace/github.com/staticweb/docs/images/glorfindel.png
+2025-04-30 11:58:24,965 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/images/rivendell.png was copied to directory /home/keshav/workspace/github.com/staticweb/docs/images/rivendell.png
+2025-04-30 11:58:39,339 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/docs/index.css file was deleted
+2025-04-30 11:58:39,340 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/docs/contact directory was deleted
+2025-04-30 11:58:39,340 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/docs/blog directory was deleted
+2025-04-30 11:58:39,341 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/docs/images directory was deleted
+2025-04-30 11:58:39,341 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/docs/index.html file was deleted
+2025-04-30 11:58:39,341 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/index.css was copied to directory /home/keshav/workspace/github.com/staticweb/docs/index.css
+2025-04-30 11:58:39,343 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/images/tom.png was copied to directory /home/keshav/workspace/github.com/staticweb/docs/images/tom.png
+2025-04-30 11:58:39,344 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/images/tolkien.png was copied to directory /home/keshav/workspace/github.com/staticweb/docs/images/tolkien.png
+2025-04-30 11:58:39,345 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/images/glorfindel.png was copied to directory /home/keshav/workspace/github.com/staticweb/docs/images/glorfindel.png
+2025-04-30 11:58:39,347 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/images/rivendell.png was copied to directory /home/keshav/workspace/github.com/staticweb/docs/images/rivendell.png
+2025-04-30 11:58:50,266 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/docs/index.css file was deleted
+2025-04-30 11:58:50,266 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/docs/contact directory was deleted
+2025-04-30 11:58:50,267 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/docs/blog directory was deleted
+2025-04-30 11:58:50,268 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/docs/images directory was deleted
+2025-04-30 11:58:50,268 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/docs/index.html file was deleted
+2025-04-30 11:58:50,268 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/index.css was copied to directory /home/keshav/workspace/github.com/staticweb/docs/index.css
+2025-04-30 11:58:50,269 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/images/tom.png was copied to directory /home/keshav/workspace/github.com/staticweb/docs/images/tom.png
+2025-04-30 11:58:50,270 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/images/tolkien.png was copied to directory /home/keshav/workspace/github.com/staticweb/docs/images/tolkien.png
+2025-04-30 11:58:50,271 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/images/glorfindel.png was copied to directory /home/keshav/workspace/github.com/staticweb/docs/images/glorfindel.png
+2025-04-30 11:58:50,273 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/images/rivendell.png was copied to directory /home/keshav/workspace/github.com/staticweb/docs/images/rivendell.png
+2025-04-30 12:06:17,883 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/docs/index.css file was deleted
+2025-04-30 12:06:17,883 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/docs/contact directory was deleted
+2025-04-30 12:06:17,884 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/docs/blog directory was deleted
+2025-04-30 12:06:17,885 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/docs/images directory was deleted
+2025-04-30 12:06:17,885 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/docs/index.html file was deleted
+2025-04-30 12:06:17,885 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/index.css was copied to directory /home/keshav/workspace/github.com/staticweb/docs/index.css
+2025-04-30 12:06:17,887 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/images/tom.png was copied to directory /home/keshav/workspace/github.com/staticweb/docs/images/tom.png
+2025-04-30 12:06:17,888 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/images/tolkien.png was copied to directory /home/keshav/workspace/github.com/staticweb/docs/images/tolkien.png
+2025-04-30 12:06:17,889 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/images/glorfindel.png was copied to directory /home/keshav/workspace/github.com/staticweb/docs/images/glorfindel.png
+2025-04-30 12:06:17,891 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/images/rivendell.png was copied to directory /home/keshav/workspace/github.com/staticweb/docs/images/rivendell.png
+2025-04-30 12:06:58,900 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/docs/index.css file was deleted
+2025-04-30 12:06:58,900 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/docs/contact directory was deleted
+2025-04-30 12:06:58,901 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/docs/blog directory was deleted
+2025-04-30 12:06:58,902 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/docs/images directory was deleted
+2025-04-30 12:06:58,902 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/docs/index.html file was deleted
+2025-04-30 12:06:58,902 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/index.css was copied to directory /home/keshav/workspace/github.com/staticweb/docs/index.css
+2025-04-30 12:06:58,904 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/images/tom.png was copied to directory /home/keshav/workspace/github.com/staticweb/docs/images/tom.png
+2025-04-30 12:06:58,905 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/images/tolkien.png was copied to directory /home/keshav/workspace/github.com/staticweb/docs/images/tolkien.png
+2025-04-30 12:06:58,905 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/images/glorfindel.png was copied to directory /home/keshav/workspace/github.com/staticweb/docs/images/glorfindel.png
+2025-04-30 12:06:58,908 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/images/rivendell.png was copied to directory /home/keshav/workspace/github.com/staticweb/docs/images/rivendell.png
+2025-04-30 12:07:22,362 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/docs/index.css file was deleted
+2025-04-30 12:07:22,362 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/docs/contact directory was deleted
+2025-04-30 12:07:22,363 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/docs/blog directory was deleted
+2025-04-30 12:07:22,364 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/docs/images directory was deleted
+2025-04-30 12:07:22,364 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/docs/index.html file was deleted
+2025-04-30 12:07:22,364 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/index.css was copied to directory /home/keshav/workspace/github.com/staticweb/docs/index.css
+2025-04-30 12:07:22,365 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/images/tom.png was copied to directory /home/keshav/workspace/github.com/staticweb/docs/images/tom.png
+2025-04-30 12:07:22,366 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/images/tolkien.png was copied to directory /home/keshav/workspace/github.com/staticweb/docs/images/tolkien.png
+2025-04-30 12:07:22,367 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/images/glorfindel.png was copied to directory /home/keshav/workspace/github.com/staticweb/docs/images/glorfindel.png
+2025-04-30 12:07:22,369 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/images/rivendell.png was copied to directory /home/keshav/workspace/github.com/staticweb/docs/images/rivendell.png
