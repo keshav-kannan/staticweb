@@ -47,14 +47,7 @@ def copy_file_to(file_path,dest_file_path):
     shutil.copy(file_path,dest_file_path)
     logger.info(f"{file_path} was copied to directory {dest_file_path}")
 
-def copy_static_to_public():
-    #folder paths
-    source = "/static/"
-    dest = "/public/"
-    root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    source_path = root_dir+source
-    dest_path = root_dir+dest
-
+def copy_static_to_public(source_path,dest_path):
     #empty/delete all files in destination folder
     delete_dest_files(dest_path)
 
@@ -79,7 +72,7 @@ def write_text_to_file(file, dest_path):
         f.write(file)
 
 
-def generate_page(from_path, template_path, dest_path):
+def generate_page(from_path, template_path, dest_path,basepath):
     print(f"Generating page from {from_path} to {dest_path} using {template_path}")
 
     #read the markdown file and store contents in a variable
@@ -93,6 +86,8 @@ def generate_page(from_path, template_path, dest_path):
     #Replace title and content in the template string
     template = template.replace("{{ Title }}",title)
     template = template.replace("{{ Content }}",html)
+    template = template.replace('href="/',f'href="{basepath}')
+    template = template.replace('src="/',f'src="{basepath}')
 
     write_text_to_file(template,dest_path)
 
@@ -108,7 +103,13 @@ def list_md_files_recursive(path):
             md_files.extend(list_files_recursive(file_path+"/"))
     return md_files
 
-def generate_page_recursive(dir_path_content,template_path, dest_dir_path):
+def generate_page_recursive(dir_path_content,template_path, dest_dir_path, basepath):
+    # add basepath to directories
+    dir_path_content = os.path.join(basepath, dir_path_content)
+    template_path = os.path.join(basepath, template_path)
+    dest_dir_path = os.path.join(basepath, dest_dir_path)
+
+
     #get a list of paths of all md files
     md_files = list_md_files_recursive(dir_path_content)
 
@@ -126,4 +127,4 @@ def generate_page_recursive(dir_path_content,template_path, dest_dir_path):
 
         #dest path using dest folder, rel folder structure and new filename
         dest_path = os.path.join(dest_dir_path,rel_path,new_file)
-        generate_page(from_path, template_path, dest_path)
+        generate_page(from_path, template_path, dest_path,basepath)
