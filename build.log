@@ -1,0 +1,48 @@
+sebnjdfkjiebwsfkjwe
+2025-04-30 09:32:46,633 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/public/test file was deleted
+2025-04-30 09:32:46,634 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/public/test2 directory was deleted
+2025-04-30 09:32:46,634 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/index.css was copied to directory index.css
+2025-04-30 09:34:16,404 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/index.css was copied to directory index.css
+2025-04-30 09:35:15,708 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/index.css was copied to directory index.css
+2025-04-30 09:35:33,372 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/index.css was copied to directory /home/keshav/workspace/github.com/staticweb/public/index.css
+2025-04-30 09:41:56,048 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/public/index.css file was deleted
+2025-04-30 09:43:12,610 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/index.css was copied to directory /home/keshav/workspace/github.com/staticweb/public/index.css
+2025-04-30 09:43:12,616 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/images/tolkien.png was copied to directory /home/keshav/workspace/github.com/staticweb/public/images/tolkien.png
+2025-04-30 09:45:25,102 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/public/index.css file was deleted
+2025-04-30 09:45:25,102 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/public/images directory was deleted
+2025-04-30 09:45:25,102 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/index.css was copied to directory /home/keshav/workspace/github.com/staticweb/public/index.css
+2025-04-30 09:45:25,105 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/images/tolkien.png was copied to directory /home/keshav/workspace/github.com/staticweb/public/images/tolkien.png
+2025-04-30 09:46:23,527 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/public/index.css file was deleted
+2025-04-30 09:46:23,527 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/index.css was copied to directory /home/keshav/workspace/github.com/staticweb/public/index.css
+2025-04-30 09:46:23,529 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/images/tolkien.png was copied to directory /home/keshav/workspace/github.com/staticweb/public/images/tolkien.png
+2025-04-30 09:46:39,516 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/public/index.css file was deleted
+2025-04-30 09:46:39,517 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/public/images directory was deleted
+2025-04-30 09:46:39,517 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/index.css was copied to directory /home/keshav/workspace/github.com/staticweb/public/index.css
+2025-04-30 09:46:39,519 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/images/tolkien.png was copied to directory /home/keshav/workspace/github.com/staticweb/public/images/tolkien.png
+2025-04-30 09:46:59,074 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/public/index.css file was deleted
+2025-04-30 09:46:59,074 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/public/images directory was deleted
+2025-04-30 09:46:59,074 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/index.css was copied to directory /home/keshav/workspace/github.com/staticweb/public/index.css
+2025-04-30 09:46:59,076 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/images/tolkien.png was copied to directory /home/keshav/workspace/github.com/staticweb/public/images/tolkien.png
+2025-04-30 10:31:26,522 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/public/index.css file was deleted
+2025-04-30 10:31:26,523 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/public/images directory was deleted
+2025-04-30 10:31:26,523 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/public/index.html file was deleted
+2025-04-30 10:31:26,523 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/index.css was copied to directory /home/keshav/workspace/github.com/staticweb/public/index.css
+2025-04-30 10:31:26,531 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/images/tolkien.png was copied to directory /home/keshav/workspace/github.com/staticweb/public/images/tolkien.png
+2025-04-30 10:32:20,982 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/public/index.css file was deleted
+2025-04-30 10:32:20,982 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/public/images directory was deleted
+2025-04-30 10:32:20,982 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/public/index.html file was deleted
+2025-04-30 10:32:20,982 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/index.css was copied to directory /home/keshav/workspace/github.com/staticweb/public/index.css
+2025-04-30 10:32:20,984 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/images/tolkien.png was copied to directory /home/keshav/workspace/github.com/staticweb/public/images/tolkien.png
+2025-04-30 10:33:59,796 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/public/index.css file was deleted
+2025-04-30 10:33:59,796 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/public/images directory was deleted
+2025-04-30 10:33:59,796 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/public/index.html file was deleted
+2025-04-30 10:33:59,797 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/index.css was copied to directory /home/keshav/workspace/github.com/staticweb/public/index.css
+2025-04-30 10:33:59,799 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/images/tolkien.png was copied to directory /home/keshav/workspace/github.com/staticweb/public/images/tolkien.png
+2025-04-30 10:37:45,541 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/public/index.css file was deleted
+2025-04-30 10:37:45,542 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/public/images directory was deleted
+2025-04-30 10:37:45,542 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/public/index.html file was deleted
+2025-04-30 10:37:45,542 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/index.css was copied to directory /home/keshav/workspace/github.com/staticweb/public/index.css
+2025-04-30 10:37:45,544 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/images/tom.png was copied to directory /home/keshav/workspace/github.com/staticweb/public/images/tom.png
+2025-04-30 10:37:45,545 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/images/tolkien.png was copied to directory /home/keshav/workspace/github.com/staticweb/public/images/tolkien.png
+2025-04-30 10:37:45,546 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/images/glorfindel.png was copied to directory /home/keshav/workspace/github.com/staticweb/public/images/glorfindel.png
+2025-04-30 10:37:45,549 - my_logger - INFO - /home/keshav/workspace/github.com/staticweb/static/images/rivendell.png was copied to directory /home/keshav/workspace/github.com/staticweb/public/images/rivendell.png
