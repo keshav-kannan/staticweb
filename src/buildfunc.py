@@ -95,3 +95,35 @@ def generate_page(from_path, template_path, dest_path):
     template = template.replace("{{ Content }}",html)
 
     write_text_to_file(template,dest_path)
+
+
+def list_md_files_recursive(path):
+    md_files = []
+    for file in os.listdir(path):
+        file_path = path + file
+        if os.path.isfile(file_path):
+            if os.path.splitext(file)[-1].lower() == ".md":
+                md_files.append(file_path)
+        elif os.path.isdir(file_path):
+            md_files.extend(list_files_recursive(file_path+"/"))
+    return md_files
+
+def generate_page_recursive(dir_path_content,template_path, dest_dir_path):
+    #get a list of paths of all md files
+    md_files = list_md_files_recursive(dir_path_content)
+
+    #generate a html page for each file in md_files
+    for file in md_files:
+        #new filename
+        filename = os.path.split(file)[1]
+        new_file = os.path.splitext(filename)[0] + ".html"
+
+        #rel folder structure minus root and filename. if in root, relpath returns "." -> change to empty string
+        rel_path = os.path.relpath(os.path.dirname(file),dir_path_content)
+        if rel_path == ".":
+            rel_path = ""
+        from_path = file
+
+        #dest path using dest folder, rel folder structure and new filename
+        dest_path = os.path.join(dest_dir_path,rel_path,new_file)
+        generate_page(from_path, template_path, dest_path)

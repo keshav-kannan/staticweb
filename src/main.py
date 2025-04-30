@@ -5,12 +5,16 @@ from blocktype import *
 from buildfunc import *
 
 def main():
-    from_path = "/home/keshav/workspace/github.com/staticweb/content/index.md"
+    #from_path = "/home/keshav/workspace/github.com/staticweb/content/index.md"
+    #dest_path = "/home/keshav/workspace/github.com/staticweb/public/index.html"
+    dir_path_content = "/home/keshav/workspace/github.com/staticweb/content/"
     template_path = "/home/keshav/workspace/github.com/staticweb/template.html"
-    dest_path = "/home/keshav/workspace/github.com/staticweb/public/index.html"
+    dest_dir_path = "/home/keshav/workspace/github.com/staticweb/public/"
 
+    #Clear the public folder and copy static files to public
     copy_static_to_public()
-    generate_page(from_path, template_path, dest_path)
+    #Generate all html pages from md
+    generate_page_recursive(dir_path_content,template_path, dest_dir_path)
 
 
 main()
